@@ -1,0 +1,40 @@
+.container {
+  .navbar {
+    width: 100%;
+    background-image: url('./foto.jpg');
+    padding: 2rem;
+    margin: 3rem;
+    text-align: center;
+    height: 50rem;
+  }
+  .section {
+    display: flex;
+    // background-color: rgb(105, 14, 14);
+    margin: 2rem;
+    padding: 2rem;
+    width: 90%;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+
+    .card {
+      background-color: rgb(255, 0, 0);
+      width: 2rem;
+      padding: 2rem;
+    }
+  }
+  .body {
+      display: flex;
+      width: 100%;
+      padding: 2rem;
+      justify-content: space-evenly;
+      flex-direction: row;
+
+      .Anak {
+          background-color: purple;
+          width: 10%;
+          padding: 3rem;
+          height: 2rem;
+      }
+      
+  }
+}
